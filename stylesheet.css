@@ -1,0 +1,42 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+}
+
+.intro {
+  background-image: url(1.jpg);
+}
+
+.content {
+  background-image: url(2.jpg);
+}
+
+.footer {
+  background-image: url(4.jpg);
+}
+
+.CTA {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.title {
+  font-size: 4em;
+  letter-spacing: 20px;
+  font-family: fantasy;
+  color: white;
+}
